@@ -4,9 +4,9 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using frontend.Models;
+using telas.Models;
 
-namespace frontend.Controllers
+namespace telas.Controllers
 {
     public class HomeController : Controller
     {
