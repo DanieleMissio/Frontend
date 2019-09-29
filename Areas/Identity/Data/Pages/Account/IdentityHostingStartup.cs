@@ -5,10 +5,10 @@ using Microsoft.AspNetCore.Identity.UI;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using telas.Data;
+using frontend.Data;
 
-[assembly: HostingStartup(typeof(telas.Areas.Identity.IdentityHostingStartup))]
-namespace telas.Areas.Identity
+[assembly: HostingStartup(typeof(frontend.Areas.Identity.IdentityHostingStartup))]
+namespace frontend.Areas.Identity
 {
     public class IdentityHostingStartup : IHostingStartup
     {

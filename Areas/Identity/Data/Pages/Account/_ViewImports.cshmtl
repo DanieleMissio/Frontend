@@ -1,1 +1,1 @@
-@using telas.Areas.Identity.Pages.Account
+@using frontend.Areas.Identity.Pages.Account
