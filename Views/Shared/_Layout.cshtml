@@ -74,7 +74,7 @@
                     </button>
                     <!-- <a class="navbar-brand" href="index.html"><img src="~/images/logo.png" alt="logo"></a> -->
                 </div>
-                <div class="collapse navbar-collapse navbar-right">
+                <div class="collapse navbar-collapse navbar-left">
                     <ul class="nav navbar-nav">
                         <li><a asp-controller="Home" asp-action="Index">Home</a></li>
                         <!-- <li class="dropdown"> 
@@ -93,10 +93,15 @@
                         <li><a asp-controller="Contatos" asp-action="Index">Contatos</a></li>
                     </ul>
                 </div>
+                <div class="collapse navbar-collapse navbar-right">
+                    <partial name="_LoginPartial" />
+                </div>
             </div><!--/.container-->
         </nav><!--/nav-->
         
     </header><!--/header-->
+    <partial name="_CookieConsentPartial" />
+    @RenderBody()
 
 
     <!-- <div class="page-title" style="background-image: url(/images/page-title.png)"> 

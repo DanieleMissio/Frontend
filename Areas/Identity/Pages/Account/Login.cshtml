@@ -7,13 +7,18 @@
 
 <h1>@ViewData["Title"]</h1>-->
 
-<div class="modal-body">
+<!-- <div class="modal-body"> -->
 <div class="row">
-    <div class="col-md-4">
+    <div class="col">
+        <div class="modal-dialog">
+        <div class="modal-content">
+        <div class="modal-header">
+        <div class="modal-body">
         </br>
         <h1 class="modal-title">Entrar</h1>
         </br>
-        <section>
+       
+        <!-- <section> -->
             <form id="account" method="post">
                 <h4>Use a sua conta para logar-se no Sistema</h4>
                 <hr />
@@ -41,6 +46,7 @@
                     <button type="submit" class="btn btn-primary">Log in</button>
                 <!-- </div> -->
                 </div>
+                
                 <div class="form-group">
                     <p>
                         <a id="forgot-password" asp-page="./ForgotPassword">Esqueceu a sua senha?</a>
@@ -49,10 +55,15 @@
                         <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl">Registre-se como um novo usuário</a>
                     </p>
                 </div>
+                </div> 
+                </div>
+                </div>
+                </div>
             </form>
-        </section>
+        <!--</section>-->
+        </div>
     </div>
-    </div>
+    <!-- </div> -->
         <!-- <div class="col-md-6 col-md-offset-2"> 
         <section>
              <h4>Use another service to log in.</h4>
